@@ -5,7 +5,6 @@ import {
   Routes,
   useNavigate,
 } from "react-router-dom";
-// import pages
 import Home from "./pages/Home";
 import About from "./pages/About";
 import { SingleCocktail } from "./pages/SingleCocktail";
@@ -42,10 +41,10 @@ function App() {
           <Route path="/singlecocktail" element={<SingleCocktail />} />
           <Route path="/userlogup" element={<UserLog />} />
           <Route path="/box" element={<SavedBooks />} />
+          <Route path="/adminlog" element={<AdminLog />} />
           {adminId && (
             <>
               <Route path="/cheaked" element={<Uncheckad />} />
-              <Route path="/adminlog" element={<AdminLog />} />
               <Route path="/userlist" element={<UserList />} />
               <Route path="/createcategory" element={<CreateCotegory />} />
             </>

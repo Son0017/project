@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { CiMenuBurger } from "react-icons/ci";
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import { useState } from "react";
 const Navbar = () => {
   const [open, setOpen] = useState(false);

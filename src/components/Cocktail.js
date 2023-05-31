@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import { useFetch } from "../hooks/useFetch";
 import { useSelector } from "react-redux";
-// import { useEffect } from "react";
 const Cocktail = ({ item, coc }) => {
   const { userOne } = useSelector((state) => state);
   const { savedBook, getContent } = useFetch();

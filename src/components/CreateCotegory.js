@@ -3,7 +3,6 @@ import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import styled from "styled-components";
 import { useFetch } from "../hooks/useFetch";
-import { useEffect } from "react";
 import Cocktail from "./Cocktail";
 
 function CreateCotegory() {
@@ -102,7 +101,3 @@ const CreteStyled = styled.div`
 `;
 
 export default CreateCotegory;
-/*
-  
-
-*/

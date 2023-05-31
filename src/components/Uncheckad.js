@@ -6,7 +6,6 @@ import Cocktail from "./Cocktail";
 function Uncheckad() {
   const books = useSelector((state) => state.books);
   const { deleteUser, cheakedBooks } = useFetch();
-
   return (
     <section className="section">
       <h2 className="section-title">Books</h2>
